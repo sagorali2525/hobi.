@@ -1,0 +1,379 @@
+/* =====================================
+    Template Name: Strict || HTML Template
+    Author: Md. Nur Nobi 
+    Version: 1.0.0
+    Created: 14 February, 2021
+    File Description: Main Css file of the template   
+
+========================================*/
+
+/*=======================================
+    01.General        
+
+========================================*/
+
+
+
+/*=======================================
+    Typrography    
+========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Rufina:wght@400;700&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#6e7797;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    color:#000a2d;
+    margin:0;
+    padding:0;
+}
+h2{
+    font-size: 70px;
+}
+h4{
+    font-size: 22px;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#6e7797;
+    margin: 30px 0;
+    padding:0;
+}
+a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#6e7797;
+    text-decoration: none;
+}
+
+/*=======================================
+                Header 
+========================================*/
+
+
+header{
+    background-color: #ffffff;
+    padding: 30px 0;
+}
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    margin-left: 370px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;  
+}
+.menu ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000a2d;
+    text-transform: capitalize;
+    padding: 20px 20px;
+    transition: 0.5s all ease-in-out;
+}
+.menu ul li a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+   
+}
+.menu-button{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.download {
+    margin-right: 20px;
+}
+.download button{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 36px;
+    background-color: #ff3d4f;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+
+}
+
+
+.humburger i{
+    font-size: 14px;
+    color: #ff3d4f;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #ff3d4f26;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 20px #ffc2c8;
+    cursor: pointer;
+
+}
+
+.humburger i:hover{
+    color: black;
+}
+/*=======================================
+                Header end
+========================================*/
+
+/*=======================================
+         banner start
+========================================*/
+
+    #banner{
+        width: 100%;
+        padding: 140px 0;
+        background-color: #f6f5ff;
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 610px; 
+       
+    }
+   
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog-content.content{
+    text-align: center;
+    display: flex;
+    justify-content: ;
+}
+.content h4{
+    font-size: 20px;
+    color: #ff3d4f;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+
+}
+.content h2{
+    width: 50%;
+    font-size: 90px;
+    color: #000a2d;
+    padding: 12px 0;
+}
+.content p{
+    width: 45%;
+    font-size: 20px;
+    color: #6e7797;
+    line-height: 30px;
+    padding-bottom: 12px;
+
+}
+.lern-more {
+    display: flex;
+}
+.lern-more button{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 36px;
+    background-color: #ff3d4f;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.bumper p{
+    padding: 0 10px;
+    display: contents;
+}
+.bumper i{
+    font-size: 14px;
+    color: #ff0404;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 20px #634747;
+    cursor: pointer;
+    margin: 0 18px;
+}
+.bumper p{
+    font-size: 14px;
+    color: #ff3d4f;
+    text-transform: capitalize;
+}
+.bumper i:hover{
+    color: rgb(0, 0, 0);
+
+}
+/*=======================================
+               banner end
+========================================*/
+
+.content-one h4{
+    font-size: 14px;
+    color: #ff3d4f;
+}
+.about content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-one h2{
+    font-size: 70px;
+    color: #000a2d;
+}
+.download-cv{
+    font-size: 14px;
+    color: #6e7797;
+}
+.cv-button button{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 36px;
+    background-color: #ff3d4f;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.content-two p{
+    display: flex;
+    justify-content: space-between;
+}
+.dv-button button{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    color: rgb(165, 158, 158);
+    text-transform: capitalize;
+    border-radius: 36px;
+    background-color: transparent;
+    border: 1px solid rgb(165, 158, 158);
+    cursor: pointer;
+    outline: none;
+    margin: 20px 0;
+
+} 
+ #about{
+    background-color: #fff;
+    padding: 100px 0;
+    }
+    .about-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content-text{
+        width: 50%;
+    }
+    .content-button{
+        width: 50%;
+    
+    }
+    
+    .content-text p{
+        font-size: 14px;
+        font-weight: 400;
+        color:#ff3d4f ;
+        text-transform: capitalize;
+        padding: 20px 0;
+    }
+    .content-text h2{
+        font-size: 70px;
+        font-weight: 700;
+        color: #000a2d;
+        line-height: 90px; 
+    }
+    .content-text p{
+        font-size: 14px;
+        font-weight: 400;
+        color:#ff3d4f;
+        line-height: 24px;
+     
+    }
+    .button-item{
+        display: flex;
+        align-items: center;
+    }
+    .button-item .button1 button{
+        font-family: 'Rubik', sans-serif;
+        font-size:14px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #ff3d4f;
+        border: 1px solid #ff3d4f;
+        border-radius: 50px;
+        height: 50px;
+        width: 200px;
+        cursor: pointer;
+       
+    }
+    .button-item .button1 button:focus{
+        outline: none;
+    }
+    .button-item .button2 button{
+        font-family: 'Rubik', sans-serif;
+        font-size:14px;
+        font-weight: 500;
+        color:#6e7797;
+        background-color: transparent;
+        border: 1px solid #e5e9ff;
+        border-radius: 50px;
+        height: 50px;
+        width: 200px;
+        padding: 15px 0;
+        margin: 0 45px;
+        cursor: pointer;
+    }
+    .button-item .button2 button:focus{
+        outline: none;
+    }
+    .button-item .button2 button:hover{
+        background-color: chartreuse;
+
+    }
+    
+    
+    
+    
+    
+    
+     
